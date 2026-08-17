@@ -1,0 +1,22 @@
+{
+  "request": {
+    "profile_id": "LSA-070826-001",
+    "full_name": "Aarav Sharma",
+    "email": "aarav.sharma@example.com",
+    "phone": "+91 98765 43210",
+    "predecessor_id": "PRE-070826-001",
+    "verification_type": "identity_and_credentials"
+  },
+  "headers": {
+    "trace_id": "uuid-v4",
+    "logic_hash": "sha256-64-character-hex"
+  },
+  "success_response": {
+    "status": "verified",
+    "verification_id": "VER-LSA-070826-001",
+    "predecessor_id": "PRE-070826-001",
+    "trace_id": "same-request-trace-id",
+    "logic_hash": "same-request-logic-hash",
+    "message": "LSA profile verification accepted."
+  }
+}
